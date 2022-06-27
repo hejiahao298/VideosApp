@@ -1,0 +1,26 @@
+server:
+  port: 9991
+
+spring:
+  application:
+    name: API-CATEGORIES
+  cloud:
+    nacos:
+      server-addr: 114.116.65.212:8848
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://gz-cynosdbmysql-grp-c2m0jzh1.sql.tencentcdb.com:25224/videos?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: Qwer1793!
+
+
+mybatis:
+  mapper-locations: classpath:com/hjh/mapper/*.xml
+  type-aliases-package: com.hjh.entity
+
+logging:
+  level:
+    com:
+      hjh:
+        dao: debug

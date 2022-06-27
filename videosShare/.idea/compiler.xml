@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="share-videos" />
+        <module name="share-categorys" />
+        <module name="share-gateway" />
+        <module name="share-users" />
+        <module name="share-commons" />
+        <module name="share-sms" />
+        <module name="share-search" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="share-categorys" options="-parameters" />
+      <module name="share-commons" options="-parameters" />
+      <module name="share-gateway" options="-parameters" />
+      <module name="share-search" options="-parameters" />
+      <module name="share-sms" options="-parameters" />
+      <module name="share-users" options="-parameters" />
+      <module name="share-videos" options="-parameters" />
+      <module name="videosShare" options="-parameters" />
+    </option>
+  </component>
+</project>

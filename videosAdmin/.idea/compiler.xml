@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="videos-videos" />
+        <module name="videos-category" />
+        <module name="videos-gateway" />
+        <module name="videos-commons" />
+        <module name="videos-users" />
+        <module name="videos-admin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="videos-admin" options="-parameters" />
+      <module name="videos-category" options="-parameters" />
+      <module name="videos-commons" options="-parameters" />
+      <module name="videos-gateway" options="-parameters" />
+      <module name="videos-users" options="-parameters" />
+      <module name="videos-videos" options="-parameters" />
+      <module name="videosAdmin" options="-parameters" />
+    </option>
+  </component>
+</project>

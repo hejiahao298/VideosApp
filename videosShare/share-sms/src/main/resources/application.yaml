@@ -1,0 +1,18 @@
+server:
+  port: 9994
+spring:
+  application:
+    name: API-SMS
+  cloud:
+    nacos:
+      server-addr: 114.116.65.212:8848
+  redis:
+    host: 114.116.65.212
+    port: 6379
+
+sms:
+  accesskeyId: 
+  secret: 
+  signName: 阿里云短信测试
+  templateCode: 
+  regionId: cn-hangzhou

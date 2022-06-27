@@ -1,0 +1,37 @@
+version: "3.9"
+services:
+
+  categorys:
+    build:
+      context: ./images/categorys
+      dockerfile: Dockerfile
+    ports:
+      - "9991:9991"
+
+  gateway:
+    build:
+      context: ./images/gateway
+      dockerfile: Dockerfile
+    ports:
+      - "9999:9999"
+
+  search:
+    build:
+      context: ./images/search
+      dockerfile: Dockerfile
+    ports:
+      - "9095:9095"
+
+  users:
+    build:
+      context: ./images/users
+      dockerfile: Dockerfile
+    ports:
+      - "9992:9992"
+
+  videos:
+    build:
+      context: ./images/videos
+      dockerfile: Dockerfile
+    ports:
+      - "9993:9993"

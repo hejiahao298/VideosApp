@@ -1,0 +1,28 @@
+server:
+  port: 8982
+
+spring:
+  application:
+    name: API-USERS
+
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 114.116.65.212:8848
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://114.116.65.212:3306/videos?characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+  redis:
+    host: 114.116.65.212
+    port: 6379
+
+mybatis:
+  mapper-locations: classpath:com/hjh/mapper/*.xml
+  type-aliases-package: com.hjh.entity
+
+logging:
+  level:
+    com.baizhi.dao: debug

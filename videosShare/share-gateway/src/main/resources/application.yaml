@@ -1,0 +1,62 @@
+server:
+  port: 9999
+
+
+spring:
+  cloud:
+    nacos:
+      server-addr: 114.116.65.212:8848
+    gateway:
+      routes:
+        # 短信服务
+        - id: sms_router
+          uri: lb://API-SMS
+          predicates:
+            - Path=/api/captchas/**
+          filters:
+            - StripPrefix=1
+
+        # 类别服务
+        - id: categories_router
+          uri: lb://API-CATEGORIES
+          predicates:
+            - Path=/api/categories/**
+          filters:
+            - StripPrefix=1
+
+        # 用户服务
+        - id: users_router
+          uri: lb://API-USERS  #注意:书写服务名不能是含有_
+          predicates:
+            - Path=/api/token/**,/api/tokens/**,/api/user/**
+          filters:
+            - StripPrefix=1    #去掉前缀filter 去掉请求路由中1级前缀   /captchas
+
+        # 视频服务
+        - id: videos_router
+          uri: lb://API-VIDEOS
+          predicates:
+            - Path=/api/videos/**,/api/recommends
+          filters:
+            - StripPrefix=1
+
+        # 搜索服务
+        - id: search_router
+          uri: lb://API-SEARCH
+          predicates:
+            - Path=/api/search/**
+          filters:
+            - StripPrefix=1
+
+      globalcors: # 跨域配置处理
+        add-to-simple-url-handler-mapping: true
+        cors-configurations:
+          '[/**]':
+            allowedOrigins: "*"
+            allowedMethods: "*"
+            allowedHeaders: "*"
+            allowCredentials: true
+            maxAge: 360000
+
+  application:
+    name: API-GATEWAY

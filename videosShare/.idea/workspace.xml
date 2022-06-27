@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c126cde5-5cce-4cdb-92bc-2365aca83df1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\maven\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2B3iumacK9mNpysJA8RSZj2b2ov" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/users" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reactor" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IEDAProject\videosShare\images\users" />
+      <recent name="E:\IEDAProject\videosShare\images\videos" />
+      <recent name="E:\IEDAProject\videosShare\images\sms" />
+      <recent name="E:\IEDAProject\videosShare\images\search" />
+      <recent name="E:\IEDAProject\videosShare\images\gateway" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IEDAProject\videosShare\share-users\src\main\resources\com\hjh\mapper" />
+      <recent name="E:\IEDAProject\videosShare\share-videos\src\main\resources\com\hjh" />
+      <recent name="E:\IEDAProject\videosShare\share-categorys\src\main\resources\com\hjh" />
+      <recent name="E:\IEDAProject\videosShare\share-users\src\main\resources\com\hjh" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hjh.utils" />
+      <recent name="com.hjh.config" />
+      <recent name="com.hjh.vo" />
+      <recent name="com.hjh.entity" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ShareGateway9999">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareCategoryMain9991" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="share-categorys" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareCategoryMain9991" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareGateway9999" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareGateway9999" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareSearchMain9095" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-search" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareSearchMain9095" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareSmsMain9994" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-sms" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareSmsMain9994" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareUsersMain9992" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-users" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareUsersMain9992" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShareVideosMain9993" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="share-videos" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.ShareVideosMain9993" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ShareSmsMain9994" />
+      <item itemvalue="Spring Boot.ShareUsersMain9992" />
+      <item itemvalue="Spring Boot.ShareVideosMain9993" />
+      <item itemvalue="Spring Boot.ShareSearchMain9095" />
+      <item itemvalue="Spring Boot.ShareGateway9999" />
+      <item itemvalue="Spring Boot.ShareCategoryMain9991" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ShareGateway9999" />
+        <item itemvalue="Spring Boot.ShareSmsMain9994" />
+        <item itemvalue="Spring Boot.ShareSearchMain9095" />
+        <item itemvalue="Spring Boot.ShareVideosMain9993" />
+        <item itemvalue="Spring Boot.ShareUsersMain9992" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c126cde5-5cce-4cdb-92bc-2365aca83df1" name="Default Changelist" comment="" />
+      <created>1656141397145</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656141397145</updated>
+      <workItem from="1656141398713" duration="6584000" />
+      <workItem from="1656148029023" duration="10641000" />
+      <workItem from="1656171536857" duration="72000" />
+      <workItem from="1656171677233" duration="10558000" />
+      <workItem from="1656224948639" duration="26250000" />
+      <workItem from="1656315599759" duration="20479000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

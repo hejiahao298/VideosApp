@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9c06dc1b-8ffc-40cc-b645-712f7d6832e2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:\maven\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2AyvjfhAVWrjybR7RQqfoIWFAUt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/images/gateway" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IEDAProject\videosAdmin\images\gateway" />
+      <recent name="E:\IEDAProject\videosAdmin\images\videos" />
+      <recent name="E:\IEDAProject\videosAdmin\images\users" />
+      <recent name="E:\IEDAProject\videosAdmin\images\admin" />
+      <recent name="E:\IEDAProject\videosAdmin\images\category" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\IEDAProject\videosAdmin\images\videos" />
+      <recent name="E:\IEDAProject\videosAdmin\images\gateway" />
+      <recent name="E:\IEDAProject\videosAdmin\images\category" />
+      <recent name="E:\IEDAProject\videosAdmin\images\users" />
+      <recent name="E:\IEDAProject\videosAdmin\images\admin" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hjh.utils" />
+      <recent name="com.hjh.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.VideosVideosMain8983">
+    <configuration name="VideosAdminMain8980" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="videos-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.VideosAdminMain8980" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosCategoryMain8981" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="videos-category" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.VideosCategoryMain8981" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosGatewayMain9999" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="videos-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hjh.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.VideosGatewayMain9999" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosUsersMain8982" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="videos-users" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.VideosUsersMain8982" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VideosVideosMain8983" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="videos-videos" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hjh.VideosVideosMain8983" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.VideosAdminMain8980" />
+      <item itemvalue="Spring Boot.VideosCategoryMain8981" />
+      <item itemvalue="Spring Boot.VideosUsersMain8982" />
+      <item itemvalue="Spring Boot.VideosVideosMain8983" />
+      <item itemvalue="Spring Boot.VideosGatewayMain9999" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.VideosGatewayMain9999" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9c06dc1b-8ffc-40cc-b645-712f7d6832e2" name="Default Changelist" comment="" />
+      <created>1655994777425</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1655994777425</updated>
+      <workItem from="1655994780194" duration="73000" />
+      <workItem from="1655994970386" duration="11219000" />
+      <workItem from="1656046269069" duration="31127000" />
+      <workItem from="1656121770445" duration="5592000" />
+      <workItem from="1656325245513" duration="170000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
